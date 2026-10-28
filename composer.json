@@ -1,0 +1,13 @@
+{
+    "name": "gateseeker/test-php",
+    "description": "Gateseeker external validation project (PHP)",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/psr7": "^3.1"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

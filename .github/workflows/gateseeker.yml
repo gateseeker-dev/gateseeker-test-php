@@ -1,0 +1,22 @@
+name: Gateseeker
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+  security-events: write
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: fernandocapone-stack/gateseeker@v1
+        with:
+          fail-on: P2
+          patterns: warn
+          supply-chain: warn
