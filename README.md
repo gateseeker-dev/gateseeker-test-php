@@ -1,6 +1,6 @@
 # gateseeker-test-php
 
-External validation project for the [Gateseeker](https://github.com/fernandocapone-stack/gateseeker) GitHub Action (Sprint 3). A small Composer project with one direct dependency and the Action configured as any user would configure it.
+External validation project for the [Gateseeker](https://github.com/gateseeker-dev/gateseeker) GitHub Action (Sprint 3). A small Composer project with one direct dependency and the Action configured as any user would configure it.
 
 Two pull requests exercise the gate:
 
